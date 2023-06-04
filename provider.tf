@@ -2,7 +2,7 @@
 terraform {
   backend "s3" {
     bucket = "project-tf02"             
-    key    = "LOCKID"
+    key    = "state"
     region = "us-east-1"
     
     dynamodb_table = "terraform"       
